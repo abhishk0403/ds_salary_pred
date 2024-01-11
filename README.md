@@ -8,8 +8,8 @@
 - Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark
 - Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model
 
-# Code and Resources Used
-Python Version: 3.9.13
+# Code Used
+Python Version: 3.9.13  
 Packages: pandas, numpy, sklearn, matplotlib, seaborn
 
 # Data Cleaning
@@ -35,10 +35,8 @@ Column for description length
 # EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
-![image](https://github.com/abhishk0403/ds_salary_pred/assets/140788396/52347816-8c9b-4efd-bcc5-eac39eebd314)
-
+![image](https://github.com/abhishk0403/ds_salary_pred/assets/140788396/52347816-8c9b-4efd-bcc5-eac39eebd314)  
 ![image](https://github.com/abhishk0403/ds_salary_pred/assets/140788396/11da6270-d61a-4226-9a77-1501455bc982)
-
 ![image](https://github.com/abhishk0403/ds_salary_pred/assets/140788396/1ed0e10c-a769-4cde-bdc5-4f0b72edc6e5)
 
 # Model Building
@@ -54,6 +52,6 @@ I tried three different models:
 # Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
-Random Forest : MAE = 11.22
-Linear Regression: MAE = 18.86
+Random Forest : MAE = 11.22  
+Linear Regression: MAE = 18.86  
 Ridge Regression: MAE = 19.67
